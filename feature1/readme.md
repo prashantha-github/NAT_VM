@@ -1,15 +1,15 @@
 Accessing-VM-Using-Cloud NAT
 
 Problem: 
-	To make the private instance created without external ip communicate with the internet using cloud NAT.
+   To make the private instance created without external ip communicate with the internet using cloud NAT.
 
 
 
 Purpose:
-Accessing VM instance and communicating with internet using cloud NAT without external ip.
+   Accessing VM instance and communicating with internet using cloud NAT without external ip.
 
 Overview:
- The cloud Nat will allow the VM instance which is created in the private subnet to communicate with the internet without external ip and the VM instance which is created in the public subnet can communicate directly with the internet because it has the external ip.
+   The cloud Nat will allow the VM instance which is created in the private subnet to communicate with the internet without external ip and the VM instance which is created  in the public subnet can communicate directly with the internet because it has the external ip.
 
 Required resources:
 1)	  A VPC network with public and private subnet.
